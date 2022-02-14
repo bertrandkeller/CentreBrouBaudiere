@@ -10,9 +10,9 @@ namespace :build do
   desc "Regenerate files for production"
   task :prod do
     puts "* Regenerating files for production... first time"
-    puts "gem install bundle"
-    puts "gem install jekyll"
-    puts "bundle install"
+    system "gem install bundle"
+    system "gem install jekyll"
+    system "bundle install"
     system "bundle exec jekyll build"
     puts "* Finish"
   end
