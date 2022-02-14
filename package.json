@@ -1,7 +1,6 @@
 {
-  "name": "password-protected-pages-on-netlify",
-  "version": "1.0.0",
   "dependencies": {
-    "axios": "^0.21.1"
+    "safe-compare": "^1.1.4",
+    "static-auth": "^2.0.0"
   }
 }

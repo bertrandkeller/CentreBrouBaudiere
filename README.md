@@ -1,7 +1,3 @@
-# Password-protected pages on Netlify
+This example uses the [static-auth](https://www.npmjs.com/package/static-auth) package.
 
-A demonstration of password-protected pages on Netlify as discussed in [https://www.thomasvantuycom.com/password-protected-pages-on-netlify/](https://www.thomasvantuycom.com/password-protected-pages-on-netlify/).
-
-Can be seen here: [https://password-protected-pages.netlify.app/](https://password-protected-pages.netlify.app/). The password is `secret`.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TheDancingCode/password-protected-pages-on-netlify)
+As of the time of writing, this is the **easiest solution** to add Basic Authentication to a Vercel deployment.
