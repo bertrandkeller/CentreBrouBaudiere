@@ -1,7 +1,7 @@
 {
   "public": true,
   "builds": [
-    {"src": "rake","use": "@vercel/ruby"},
+    {"src": "Rakefile","use": "@vercel/ruby"},
     {"src": "index.js","use": "@vercel/node"}
   ],
   "routes": [
