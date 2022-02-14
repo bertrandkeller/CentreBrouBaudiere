@@ -5,6 +5,7 @@ lang: fr
 timezone: UTC
 url: "https://bertrandkeller.github.io"
 baseurl: "/citoyens-de-centre-brou"
+destination: _static
 
 markdown: kramdown
 remote_theme: bertrandkeller/whiteglass
