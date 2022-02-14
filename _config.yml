@@ -1,0 +1,40 @@
+title: "Citoyens de Centre Brou - Bourg-en-Bresse"
+description: Site des conseils citoyens de Centre-Brou-Baudières à Bourg-en-Bresse
+author: Bertrand Keller
+lang: fr
+timezone: UTC
+url: "https://bertrandkeller.github.io"
+baseurl: "/citoyens-de-centre-brou"
+
+markdown: kramdown
+remote_theme: bertrandkeller/whiteglass
+excerpt_separator: "<!-- more -->"
+
+kramdown:
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 1
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+
+

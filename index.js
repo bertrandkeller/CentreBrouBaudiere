@@ -9,7 +9,7 @@ const app = protect(
   '/admin',
   (username, password) => safeCompare(username, 'admin') && safeCompare(password, 'admin'),
   {
-    directory: __dirname + '/_site',
+    directory: __dirname + '/_static',
     realm: 'vercel-basic-auth.node-static-auth',
     onAuthFailed: res => {
       res.end('Restricted area, please login (admin:admin).');
