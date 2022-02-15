@@ -3,7 +3,7 @@
 main:
   - title: "A propos"
     url: /apropos/
-  - title: "Archives"
-    url: /archives/
+  - title: "Citoyens"
+    url: /citoyens/
   - title: "Contact"
     url: /contact/

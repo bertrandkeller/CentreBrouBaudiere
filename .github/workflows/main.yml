@@ -1,4 +1,4 @@
-name: Testing the GitHub Pages publication
+name: GitHub Pages publication
 # https://github.com/jeffreytse/jekyll-deploy-action
 
 on:
@@ -35,6 +35,7 @@ jobs:
 
     - name: bundle install
       run: |
+        bundle config path vendor/bundle
         bundle install --path=vendor/bundle --jobs 4 --retry 3
         bundle clean
 

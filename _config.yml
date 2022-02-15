@@ -4,7 +4,7 @@ author: Bertrand Keller
 lang: fr
 timezone: UTC
 url: "https://bertrandkeller.github.io"
-baseurl: "/citoyens-de-centre-brou"
+baseurl: ""
 destination: _static
 
 markdown: kramdown
@@ -19,10 +19,24 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   toc_levels: 1..6
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "posts"
 plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-default-layout
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/

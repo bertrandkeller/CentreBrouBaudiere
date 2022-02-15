@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Confirmation"
 permalink: /confirmation/
 ---

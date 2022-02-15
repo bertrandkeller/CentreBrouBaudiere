@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Contactez nous"
 permalink: /contact/
 ---

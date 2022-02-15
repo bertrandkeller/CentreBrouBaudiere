@@ -1,3 +1,4 @@
 .vercel
 vendor
 .jekyll-cache
+.sass-cache
