@@ -20,19 +20,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
-    # Standard usage
-    - uses:  bertrandkeller/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-    # Specify the Jekyll source location as a parameter
-    - uses: bertrandkeller/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        jekyll_src: ''
-
     # Specify the target branch (optional)
     - uses: bertrandkeller/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'pages'
+        jekyll_src: ''
