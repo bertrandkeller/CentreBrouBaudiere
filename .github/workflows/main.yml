@@ -45,8 +45,8 @@ jobs:
     - name: jekyll build
       run: JEKYLL_ENV=production bundle exec jekyll build --destination _static
 
-    - name: jekyll build
-      run: JEKYLL_ENV=production bundle exec jekyll build --destination _static
+    - name: ls
+      run: ls
 
     - name: push pages
       run: |
