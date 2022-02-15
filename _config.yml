@@ -37,5 +37,26 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
+exclude:
+  - .cache
+  - .editorconfig
+  - .gitattributes
+  - .gitignore
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - script
+  - vendor
+  - gems
+  - tmp
+  - LICENSE.md
+  - README.md
+  - LICENSE
+  - node_modules
+  - index.js
+  - packahge.json
+  - vercel.json
+
 
 
