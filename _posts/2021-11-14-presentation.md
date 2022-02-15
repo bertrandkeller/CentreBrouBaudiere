@@ -1,6 +1,5 @@
 ---
 title: "Message de l’équipe d’animation"
-layout: post
 ---
 
 Chers collègues du Conseil citoyen de Centre-Brou-Baudières
