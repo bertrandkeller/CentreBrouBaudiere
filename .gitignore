@@ -1,2 +1,3 @@
 .vercel
 vendor
+.jekyll-cache
