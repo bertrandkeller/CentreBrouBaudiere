@@ -1,5 +1,10 @@
 {
   "public": true,
+  "builds": [
+    {"src": "bundle install","use": "@vercel/ruby"},
+    {"src": "jekyll build","use": "@vercel/ruby"},
+    {"src": "index.js","use": "@vercel/node"}
+  ],
   "routes": [
     { "src": "/.*", "dest": "index.js" }
   ]
