@@ -1,7 +1,10 @@
 name: Testing the GitHub Pages publication
+# https://github.com/jeffreytse/jekyll-deploy-action
 
 on:
-  push
+  push:
+    branches:
+      - main
 
 jobs:
   jekyll:
