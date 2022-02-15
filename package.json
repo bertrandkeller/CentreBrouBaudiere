@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.1",
   "scripts": {
-    "build": "rake"
+    "build": "rake && node index.js"
   },
   "dependencies": {
     "safe-compare": "^1.1.4",

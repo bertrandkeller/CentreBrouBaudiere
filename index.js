@@ -5,7 +5,7 @@ const safeCompare = require('safe-compare');
  *
  */
 
-const app = protect(
+const serveHandler = protect(
   '/admin',
   (username, password) => safeCompare(username, 'admin') && safeCompare(password, 'admin'),
   {
@@ -17,6 +17,11 @@ const app = protect(
   }
 );
 
-module.exports = app;
+// start the server
+const http = require('http');
+const server = http.createServer(serveHandler);
+server.listen(4444, () => console.log('Listening on port 4444...'));
+
+module.exports = server;
 
 
