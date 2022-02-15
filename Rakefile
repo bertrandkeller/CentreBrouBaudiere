@@ -13,7 +13,7 @@ namespace :build do
     system "gem install bundle"
     system "gem install jekyll"
     system "bundle install"
-    system "jekyll build"
+    system "bundle exec jekyll build"
     puts "* Finish"
   end
 
