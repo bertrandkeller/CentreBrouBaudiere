@@ -4,7 +4,7 @@ const safeCompare = require('safe-compare');
 /*
  *
  */ss
-
+ss
 const app = protect(
   '/admin',
   (username, password) => safeCompare(username, 'admin') && safeCompare(password, 'admin'),
