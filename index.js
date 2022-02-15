@@ -19,9 +19,9 @@ const serveHandler = protect(
 
 // start the server
 const http = require('http');
-const server = http.createServer(serveHandler);
-server.listen(4444, () => console.log('Listening on port 4444...'));
+const app = http.createServer(serveHandler);
+app.listen(4444, () => console.log('Listening on port 4444...'));
 
-module.exports = server;
+module.exports = app;
 
 
