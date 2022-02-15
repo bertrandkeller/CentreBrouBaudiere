@@ -42,6 +42,11 @@ jobs:
     - name: ls
       run: ls
 
+    - name: ls
+      run: |
+        cd _static && ls
+        cd citoyens && ls
+
     - name: jekyll build
       run: JEKYLL_ENV=production bundle exec jekyll build --destination _static
 
