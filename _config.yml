@@ -7,10 +7,6 @@ url: "https://bertrandkeller.github.io"
 baseurl: ""
 destination: _static
 
-collections:
-  activities:
-    output: true
-
 defaults:
   -
     scope:
@@ -29,9 +25,11 @@ defaults:
     values:
       layout: "post"
 
-
 collections:
   actions:
+    output: true
+    permalink: /:collection/:name
+  citoyens:
     output: true
     permalink: /:collection/:name
 
