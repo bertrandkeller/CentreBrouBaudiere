@@ -7,10 +7,14 @@ url: "https://bertrandkeller.github.io"
 baseurl: ""
 destination: _static
 
+collections:
+  activities:
+    output: true
+
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
       layout: "page"
   -
@@ -20,10 +24,16 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "posts"
     values:
       layout: "post"
+
+
+collections:
+  actions:
+    output: true
+    permalink: /:collection/:name
 
 markdown: kramdown
 remote_theme: bertrandkeller/whiteglass
@@ -75,7 +85,7 @@ exclude:
   - LICENSE
   - node_modules
   - index.js
-  - packahge.json
+  - package.json
   - vercel.json
 
 

@@ -26,13 +26,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
-    # Specify the target branch (optional)
-    # - uses: bertrandkeller/jekyll-action@v2
-    #   with:
-    #     token: ${{ secrets.GITHUB_TOKEN }}
-    #     target_branch: 'pages'
-    #     jekyll_src: ''
-
     - name: bundle install
       run: |
         bundle config path vendor/bundle
@@ -44,16 +37,6 @@ jobs:
 
     - name: jekyll build
       run: JEKYLL_ENV=production bundle exec jekyll build --destination _static
-
-    - name: ls
-      run: ls
-
-    - name: ls
-      run: |
-        cd _static
-        ls
-        cd citoyens
-        ls
 
     - name: push pages
       run: |
