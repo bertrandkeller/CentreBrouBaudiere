@@ -6,3 +6,5 @@ gem "kramdown-parser-gfm"
 gem "jekyll-remote-theme"
 gem 'jekyll-default-layout'
 gem 'jekyll-archives'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'

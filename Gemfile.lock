@@ -33,7 +33,6 @@ GEM
       jekyll (>= 3.6, < 5.0)
     jekyll-default-layout (0.1.5)
       jekyll (>= 3.0, < 5.0)
-    jekyll-paginate (1.1.0)
     jekyll-remote-theme (0.4.3)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
@@ -41,15 +40,8 @@ GEM
       rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-whiteglass (1.11.1)
-      jekyll (>= 3.3)
-      jekyll-archives (~> 2.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -80,9 +72,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-archives
   jekyll-default-layout
   jekyll-remote-theme
-  jekyll-whiteglass
   kramdown-parser-gfm
   webrick
 
