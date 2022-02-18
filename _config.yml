@@ -31,7 +31,7 @@ collections:
     permalink: /:collection/:name
   citoyens:
     output: true
-    permalink: /citoyens/:collection/:name
+    permalink: /:collection/:name
 
 markdown: kramdown
 remote_theme: bertrandkeller/whiteglass
