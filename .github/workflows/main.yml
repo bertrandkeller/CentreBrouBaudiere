@@ -36,7 +36,9 @@ jobs:
       run: ls
 
     - name: jekyll build
-      run: JEKYLL_ENV=production bundle exec jekyll build --destination _static
+      run: |
+        rm -rf _static
+        bundle exec jekyll build --destination _static
 
     - name: push pages
       run: |
@@ -46,6 +48,6 @@ jobs:
         rm -rf documents
         git add . && \
         git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
-        git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git main:pages
+        git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:pages
 
 
