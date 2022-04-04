@@ -37,12 +37,6 @@ _site/
 gems/
 .bundle
 
-# Content
-_actions
-_citoyens
-_posts
-_activities
-documents
 
 # node-waf configuration
 .DS_Store
