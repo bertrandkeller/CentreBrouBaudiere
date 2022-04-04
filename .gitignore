@@ -28,7 +28,6 @@ node_modules
 
 # Jekyll
 _site/
-_static
 .sass-cache/
 .asset-cache/
 .tweet-cache/
