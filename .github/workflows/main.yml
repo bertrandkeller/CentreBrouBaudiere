@@ -43,6 +43,7 @@ jobs:
         ls
         git config user.name "${GITHUB_ACTOR}" && \
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+        find . -mindepth 1 -not -regex "^\./\_static.*" -delete
         git add . && \
         git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
         git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git main:pages
