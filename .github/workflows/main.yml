@@ -38,7 +38,7 @@ jobs:
     - name: jekyll build
       run: |
         rm -rf _static
-        bundle exec jekyll build --destination _static
+        bundle exec jekyll build --destination _static --verbose
 
     - name: push pages
       run: |
