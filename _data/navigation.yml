@@ -3,7 +3,8 @@
 main:
   - title: "A propos"
     url: /apropos/
-  - title: "Citoyens"
-    url: /citoyens/
+  - title: "Documents"
+    url: /documents/
+    weight`: 999
   - title: "Contact"
     url: /contact/

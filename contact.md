@@ -76,7 +76,10 @@ button {
 </style>
 
 <div class="container">
-  <form target="_blank" action="https://formsubmit.co/bertrand.keller@gmail.com" method="POST">
+  <p>N’hésitez pas à nous contacter pour toute observation à faire remonter à nos élus, toute suggestion de thème à réfléchir en conseil citoyen, toute idée à creuser ensemble.</p>
+
+  <p>Merci de votre implication et au plaisir de mieux faire connaissance.</p>
+  <form target="_blank" action="https://formsubmit.co/centrebroubaudieres@protonmail.com" method="POST">
     <div class="form-group">
       <div class="form-row">
         <div class="col">

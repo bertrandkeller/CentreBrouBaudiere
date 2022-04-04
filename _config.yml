@@ -28,7 +28,7 @@ defaults:
 collections:
   actions:
     output: true
-    permalink: /:collection/:name
+    permalink: citoyens/:collection/:name
   citoyens:
     output: true
     permalink: /:collection/:name
