@@ -15,7 +15,7 @@ jobs:
     - name: setup ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.7
+        ruby-version: 3.0
         bundler-cache: true
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
