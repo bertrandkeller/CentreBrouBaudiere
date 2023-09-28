@@ -1,5 +1,5 @@
 ---
-title: "Rencontre Conseil Citoyen Centre-Brou Baudières avec l’Outilthèque"
+title: "Rencontre Conseil Citoyens Centre-Brou Baudières avec l’Outilthèque"
 layout: post
 ---
 

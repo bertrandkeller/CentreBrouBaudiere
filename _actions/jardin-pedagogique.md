@@ -15,7 +15,7 @@ Ex : <https://jardindesmarettes.jimdofree.com/>, <https://www.lagazettedescommun
 
 ## Jardin de l’hôpital
 
-Une partie du jardin de l’hôtital pourrait être donné à la ville. Il y a de grands arbres, l'endroit peut-être clos, il est proche de plusieurs écoles… Il serait idéal pour un jardin pédagogique au cœur de la ville.
+Une partie du jardin de l’hôpital pourrait être donné à la ville. Il y a de grands arbres, l'endroit peut-être clos, il est proche de plusieurs écoles… Il serait idéal pour un jardin pédagogique au cœur de la ville.
 
 
 
