@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../../private/var/folders/b1/w7ks8k013_ndzvbhvctd44v40000gn/T/jekyll-remote-theme-20230317-82843-xdossk/_sass/whiteglass.scss",
-		"../../../../private/var/folders/b1/w7ks8k013_ndzvbhvctd44v40000gn/T/jekyll-remote-theme-20230317-82843-xdossk/_sass/whiteglass/_base.scss",
-		"../../../../private/var/folders/b1/w7ks8k013_ndzvbhvctd44v40000gn/T/jekyll-remote-theme-20230317-82843-xdossk/_sass/whiteglass/_layout.scss",
-		"../../../../private/var/folders/b1/w7ks8k013_ndzvbhvctd44v40000gn/T/jekyll-remote-theme-20230317-82843-xdossk/_sass/whiteglass/_syntax-highlighting.scss"
+		"../../../../../tmp/jekyll-remote-theme-20230928-2547-hnahge/_sass/whiteglass.scss",
+		"../../../../../tmp/jekyll-remote-theme-20230928-2547-hnahge/_sass/whiteglass/_base.scss",
+		"../../../../../tmp/jekyll-remote-theme-20230928-2547-hnahge/_sass/whiteglass/_layout.scss",
+		"../../../../../tmp/jekyll-remote-theme-20230928-2547-hnahge/_sass/whiteglass/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n// Our variables\n$base-font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !default;\n$monospace-font-family: Monaco, Menlo, Consolas, \"Courier New\", DotumChe, monospace;\n$base-font-size:   16px;\n$base-font-weight: 400;\n$small-font-size:  $base-font-size * 0.875;\n$base-line-height: 1.5;\n\n$spacing-unit:     30px;\n\n$text-color:       #111;\n$background-color: #fdfdfd;\n$brand-color:      #2568ba;\n\n$grey-color:       #757575;\n$grey-color-light: lighten($grey-color, 45%);\n$grey-color-dark:  darken($grey-color, 20%);\n\n// Width of the content area\n$content-width:    800px;\n\n$on-palm:          600px;\n$on-laptop:        800px;\n\n\n\n// whiteglass also includes a mixin for defining media queries.\n// Use media queries like this:\n// @include media-query($on-palm) {\n//     .wrapper {\n//         padding-right: $spacing-unit / 2;\n//         padding-left: $spacing-unit / 2;\n//     }\n// }\n@mixin media-query($device) {\n  @media screen and (max-width: $device) {\n    @content;\n  }\n}\n\n\n\n// Import partials from the `whiteglass` theme.\n@import \"whiteglass\";\n",
